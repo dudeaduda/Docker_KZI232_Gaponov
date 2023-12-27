@@ -1,0 +1,4 @@
+FROM nginx:latest
+COPY web.html /Docker/nginx/html
+
+EXPOSE 80
